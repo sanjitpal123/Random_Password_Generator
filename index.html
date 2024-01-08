@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    
+    <div id="Container">
+        <h1>Random Password Generator</h1>
+        
+        <div id="input">
+            <input type="text" placeholder="" class="in">
+            <i class="fa-solid fa-copy " id="copy"></i>
+        </div>
+        <div id="passwordinfo">
+            <label>
+                <span id="len">Password length</span>
+                <input type="number" placeholder="" id="passlen">
+            </label>
+            <label id="uppercasela">
+                <span id="uptext">Uppercasse(A-Z):</span>
+                <input type="checkbox" id="uppercase" checked>
+
+            </label>
+            <label>
+                <span id="lowertext">Lowercase(a-z):</span>
+                <input type="checkbox" id="lowercase" checked>
+
+            </label>
+            <label>
+                <span id="numtext">Numbers (0-9):</span>
+                <input type="checkbox" id="number" checked>
+
+            </label>
+            <label>
+                <span id="sptext">Special (*-@) :</span>
+                <input type="checkbox" id="special" checked>
+
+            </label>
+
+        </div>
+        <button id="Generatebtn">Generate</button>
+
+
+
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+
+</html>
