@@ -1,0 +1,122 @@
+#Container {
+    width: 300px;
+    height: 350px;
+    background-color: #6382b0;
+
+}
+
+body {
+    background-color: #643fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input {
+    height: 30px;
+    width: 80%;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.in {
+    background: transparent;
+    outline: none;
+    width: 85%;
+    margin-top: 3px;
+    border: none;
+    outline: none;
+}
+
+i {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#f input {
+    margin-top: 20px;
+}
+
+label {
+    margin-top: 3px;
+}
+
+#range {
+    margin: 10px;
+    width: 200px;
+    margin-left: 28px;
+}
+
+#uppercasela {
+    margin-top: 10px;
+    width: 200px;
+}
+
+#uptext {
+    font-size: 20px;
+    margin-left: 28px;
+}
+
+#passwordinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+#lowertext {
+
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#numtext {
+    font-size: 23px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#sptext {
+    font-size: 23px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#Generatebtn {
+    margin-top: 20px;
+    margin-left: 28px;
+    width: 160px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid salmon;
+    cursor: pointer;
+}
+
+#Generatebtn:hover {
+    background-color: salmon;
+    color: white;
+    cursor: pointer;
+}
+
+#passlen {
+    height: 20px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#len {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 19px;
+}
+h1{
+    font-size: 22px;
+    margin-left: 10px;
+}
